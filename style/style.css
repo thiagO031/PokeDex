@@ -15,7 +15,9 @@ body {
 }
 @media screen and (max-width: 170vh) {
   body {
-    height: 700vh;
+    height: 510vh;
+    width: 100vw;
+    border: 1px solid green;
   }
 }
 
@@ -23,6 +25,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+@media screen and (max-width: 170vh) {
+  .container-body {
+    border: 1px solid red;
+  }
 }
 .container-body header {
   display: flex;
