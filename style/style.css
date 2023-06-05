@@ -15,7 +15,7 @@ body {
 }
 @media screen and (max-width: 170vh) {
   body {
-    height: 540vh;
+    height: 4600px;
     width: 100vw;
     border: 1px solid green;
   }
