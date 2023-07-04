@@ -37,14 +37,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
-  padding: 0px 50px;
+  height: 40px;
+  padding: 0px 30px;
   border: 1px solid black;
 }
 @media screen and (max-width: 170vh) {
   .container-body header {
-    display: flex;
-    justify-content: space-between;
     padding: 0px;
   }
 }
