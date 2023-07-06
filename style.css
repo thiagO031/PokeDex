@@ -100,4 +100,11 @@ body {
   color: #202956;
   border-radius: 8px;
   padding: 5px;
+}
+.main-container-content-card-info::-webkit-scrollbar {
+  width: 6px;
+}
+.main-container-content-card-info::-webkit-scrollbar-thumb {
+  background-color: #C29905;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
