@@ -6,7 +6,6 @@
 
 body {
   background-color: gray;
-  border: 2px solid black;
   height: 5300px;
   width: 75vw;
   margin: 0 auto;
@@ -14,7 +13,6 @@ body {
 }
 
 .container {
-  border: 1px solid red;
   height: 100%;
   width: 100%;
   display: flex;
@@ -39,12 +37,10 @@ body {
 }
 
 .main-container {
-  border: 2px solid green;
   height: 100%;
   width: 100%;
 }
 .main-container-content {
-  border: 1px solid blue;
   height: 2600px;
   display: flex;
   flex-direction: column;
@@ -84,11 +80,24 @@ body {
   padding: 8px 5px;
   border-radius: 8px;
   width: 100%;
-  background-color: rgb(0, 182, 0);
+}
+.main-container-content-card-grama {
+  background-color: rgb(29, 180, 29);
+}
+.main-container-content-card-fogo {
+  background-color: #E73900;
+}
+.main-container-content-card-agua {
+  background-color: #487FC3;
+}
+.main-container-content-card-veneno {
+  background-color: gray;
 }
 .main-container-content-card-info {
   overflow-y: scroll;
-  border: 1px solid #202956;
+  border: 1px solid #C29905;
   height: 100px;
   color: #202956;
+  border-radius: 8px;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
