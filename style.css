@@ -107,4 +107,7 @@ body {
 .main-container-content-card-info::-webkit-scrollbar-thumb {
   background-color: #C29905;
   border-radius: 8px;
+}
+.main-container-content-card-info p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
