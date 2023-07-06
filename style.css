@@ -10,6 +10,7 @@ body {
   height: 5300px;
   width: 75vw;
   margin: 0 auto;
+  font-family: "Belanosima";
 }
 
 .container {
@@ -55,23 +56,29 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid white;
+  border: 3px solid #3D60B5;
   width: 100%;
   height: 450px;
   padding: 20px;
   border-radius: 15px;
-  background-color: rgba(252, 252, 0, 0.61);
+  background-color: #FAC705;
 }
 .main-container-content-card-title {
   border: 1px solid black;
   padding: 8px 5px;
   border-radius: 8px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main-container-content-card-img {
   width: 100px;
 }
 .main-container-content-card-power {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
   border: 1px solid black;
   padding: 8px 5px;
@@ -81,6 +88,7 @@ body {
 }
 .main-container-content-card-info {
   overflow-y: scroll;
-  border: 1px solid black;
+  border: 1px solid #202956;
   height: 100px;
+  color: #202956;
 }/*# sourceMappingURL=style.css.map */
