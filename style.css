@@ -5,25 +5,47 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #E0754D;
   height: 5300px;
-  width: 75vw;
+  width: 100vw;
   margin: 0 auto;
   font-family: "Belanosima";
+  background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
+  background-position: center;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+}
+@media screen and (min-width: 900px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1800px;
+    width: 100%;
+    background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
+    background-position: center;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+  }
 }
 
 .container {
   height: 100%;
-  width: 100%;
+  width: 75vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .container {
+    width: 80%;
+  }
 }
 
 .header-container {
   height: 50px;
   width: 100%;
+  margin: 20px 0 50px;
 }
 .header-container-content {
   display: flex;
@@ -37,15 +59,35 @@ body {
 }
 
 .main-container {
-  height: 100%;
+  height: 8000px;
   width: 100%;
-}
-.main-container-content {
-  height: 2600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+@media screen and (min-width: 900px) {
+  .main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main-container-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 900px) {
+  .main-container-content {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+  }
 }
 .main-container-content-card {
   display: flex;
@@ -56,8 +98,15 @@ body {
   width: 100%;
   height: 450px;
   padding: 20px;
+  margin-bottom: 100px;
   border-radius: 15px;
   background-color: #FAC705;
+}
+@media screen and (min-width: 900px) {
+  .main-container-content-card {
+    height: 450px;
+    width: 250px;
+  }
 }
 .main-container-content-card-title {
   border: 1px solid black;
@@ -91,7 +140,7 @@ body {
   background-color: #487FC3;
 }
 .main-container-content-card-veneno {
-  background-color: gray;
+  background-color: rgb(150, 24, 150);
 }
 .main-container-content-card-info {
   overflow-y: scroll;

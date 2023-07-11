@@ -5,31 +5,66 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #E0754D;
     // border: 2px solid black;
     height: 5300px;
-    width: 75vw;
+    width: 100vw;
     margin: 0 auto;
 
     font-family: "Belanosima";
+
+    background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
+    background-position: center;
+    backdrop-filter: blur(20px);
+
+    
+
+    @media screen and (min-width: 900px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color: red;
+        height: 1800px;
+        width: 100%;
+
+        background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
+        background-position: center;
+        backdrop-filter: blur(20px);
+        // border: 1px solid white;
+        
+    }
+    
 }
 
 .container {
     // border: 1px solid red;
     height: 100%;
-    width: 100%;
+    width: 75vw;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    // justify-content: space-between;
+    // align-items: center;
+    margin: 0 auto;
 
+    @media screen and (min-width: 900px){
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-between;
+        // align-items: center;
+
+        width: 80%;
+
+        // border: 1px solid black
+    }
     
 }
 
 .header-container {
     height: 50px;
     width: 100%;
+
+    margin: 20px 0 50px;
 
     // border: 1px solid black;
 
@@ -41,36 +76,56 @@ body {
         // border: 1px solid red;
         width: 100%;
         height: 100%;
+
+        @media screen and (min-width: 900px){
+            // border: 1px solid white;
+        }
             
         img {
             width: 36px;
             // border: 1px solid black;
         } 
-    
-
         
     }
 
 }
 
 .main-container{
-    // border: 2px solid green;
-    height: 100%;
+    // border: 2px solid white;
+    height: 8000px;
     width: 100%;
 
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (min-width: 900px){
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+    }
 
     &-content{
         // border: 1px solid blue;
-        height: 2600px;
-        // margin: 100px 0;
+        height: 100%;
 
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+
+        @media screen and (min-width: 900px){
+            // border: 1px solid white;
+
+            width: 100%;
+            height: 1000px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 95vh;
+        }
 
         &-card{
             display: flex;
@@ -84,9 +139,16 @@ body {
             height: 450px;
             padding: 20px;
 
+            margin-bottom: 100px;
+
             border-radius: 15px;
 
             background-color: #FAC705;
+
+            @media screen and (min-width: 900px){
+                height: 450px;
+                width: 250px;
+            }
 
             &-title{
                 border: 1px solid black;
@@ -128,7 +190,7 @@ body {
             }
 
             &-veneno{
-                background-color: gray;
+                background-color: rgb(150, 24, 150);
             }
 
             &-info{
