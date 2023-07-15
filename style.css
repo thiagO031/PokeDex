@@ -39,6 +39,7 @@ body {
 @media screen and (min-width: 900px) {
   .container {
     width: 80%;
+    border: 1px solid black;
   }
 }
 
@@ -68,9 +69,8 @@ body {
 }
 @media screen and (min-width: 900px) {
   .main-container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 60%;
+    border: 1px solid red;
   }
 }
 .main-container-content {
@@ -81,12 +81,10 @@ body {
 @media screen and (min-width: 900px) {
   .main-container-content {
     width: 100%;
-    height: 1000px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    height: 95vh;
   }
 }
 .main-container-content-card {
@@ -104,8 +102,8 @@ body {
 }
 @media screen and (min-width: 900px) {
   .main-container-content-card {
-    height: 450px;
-    width: 250px;
+    height: 350px;
+    width: 200px;
   }
 }
 .main-container-content-card-title {
