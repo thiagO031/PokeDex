@@ -24,13 +24,13 @@ body {
         justify-content: center;
         align-items: center;
         // background-color: red;
-        height: 1800px;
+        height: 180vh;
         width: 100%;
 
         background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
         background-position: center;
         backdrop-filter: blur(20px);
-        // border: 1px solid white;
+        border: 1px solid white;
         
     }
     
@@ -48,14 +48,14 @@ body {
     margin: 0 auto;
 
     @media screen and (min-width: 900px){
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         // align-items: center;
 
         width: 80%;
 
-        border: 1px solid black
+        // border: 2px solid black
     }
     
 }
@@ -64,9 +64,12 @@ body {
     height: 50px;
     width: 100%;
 
-    margin: 20px 0 50px;
+    // margin: 20px 0 50px;
 
     // border: 1px solid black;
+    @media screen and (min-width: 900px){
+        // padding: 50px 0px;
+    }
 
     &-content {
         display: flex;
@@ -97,20 +100,20 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    // align-items: center;
 
     @media screen and (min-width: 900px){
-        height: 60%;
+        height: 950px;
         // display: flex;
         // flex-direction: column;
-        // justify-content: space-between;
-        border: 1px solid red;
+        // justify-content: flex-end;
+        // border: 1px solid red;
     }
 
     &-content{
-        // border: 1px solid blue;
-        height: 100%;
+        // border: 2px solid purple;
+        // height: 100%;
 
         display: flex;
         flex-direction: column;
@@ -119,12 +122,12 @@ body {
             // border: 1px solid white;
 
             width: 100%;
-            height: 500px;
+            // height: 500px;
 
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            // align-items: center;
+            align-items: center;
             // height: 95vh;
         }
 
@@ -160,10 +163,18 @@ body {
                 justify-content: center;
                 align-items: center;
 
+                @media screen and (min-width: 900px){
+                    font-size: 1rem;
+                }
+
             }
 
             &-img{
                 width: 100px;
+
+                @media screen and (min-width: 900px){
+                    width: 50%;
+                }
             }
 
             &-power{
@@ -176,6 +187,10 @@ body {
                 padding: 8px 5px;
                 border-radius: 8px;
                 width: 100%;
+
+                @media screen and (min-width: 900px){
+                    font-size: 1rem;
+                }
                 
             }
 
