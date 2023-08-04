@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #E0754D;
   height: 5300px;
@@ -24,9 +23,6 @@ body {
     width: 100%;
     background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
     background-position: center;
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
-    border: 1px solid white;
   }
 }
 

@@ -1,0 +1,14 @@
+.header-container {
+  height: 50px;
+  width: 100%;
+}
+.header-container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.header-container-content img {
+  width: 36px;
+}/*# sourceMappingURL=header.css.map */

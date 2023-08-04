@@ -1,0 +1,31 @@
+body {
+    background-color: #E0754D;
+    // border: 2px solid black;
+    height: 5300px;
+    width: 100vw;
+    margin: 0 auto;
+
+    font-family: "Belanosima";
+
+    background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
+    background-position: center;
+    backdrop-filter: blur(20px);
+
+    
+
+    @media screen and (min-width: 900px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color: red;
+        height: 180vh;
+        width: 100%;
+
+        background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
+        background-position: center;
+        // backdrop-filter: blur(20px);
+        // border: 1px solid white;
+        
+    }
+    
+}
