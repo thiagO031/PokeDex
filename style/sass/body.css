@@ -1,22 +1,24 @@
 body {
   background-color: #E0754D;
-  height: 5300px;
-  width: 100vw;
-  margin: 0 auto;
   font-family: "Belanosima";
-  background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
-  background-position: center;
+  background: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
+  border: 1px solid white;
 }
-@media screen and (min-width: 900px) {
+
+@media screen and (max-width: 1200px) {
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 180vh;
-    width: 100%;
-    background-image: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png);
-    background-position: center;
+    background: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png) center center no-repeat;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    background: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png) center center no-repeat;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png) center center no-repeat;
   }
 }/*# sourceMappingURL=body.css.map */

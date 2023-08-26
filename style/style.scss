@@ -2,13 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-    @media screen and (min-width: 900px){
-        // backdrop-filter: blur(20px);
-    }
 }
-
-@import 'style/body';
-@import 'sstyle/container';
-@import 'style.header';
-@import 'style.main';
+// 
+@import './sass/body';
+@import './sass/header';
+@import './sass/main.scss'
