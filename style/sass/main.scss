@@ -1,17 +1,17 @@
 .main{
-    // display: flex;
-    // flex-direction: column;
-    border: 1px solid black;
+    // border: 1px solid black;
 
     &-container{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 6rem 2rem;
 
         margin: 0 auto;
         padding: 50px 0;
-        width: 80%;
+        width: 90%;
 
-        border: 1px solid red;
+        // border: 1px solid red;
 
         &-card{
             display: flex;
@@ -29,6 +29,15 @@
             border: 3px solid #3D60B5;
 
             background-color: #FAC705;
+
+            transition: .5s;
+
+
+            // &:hover{
+            //     margin: 10px;
+            //     padding: 20px;
+            //     background-color: #bb9600;
+            // }
 
             h3{
                 border: 1px solid black;
@@ -106,7 +115,7 @@
     
             width: 80%;
     
-            border: 1px solid red;
+            // border: 1px solid red;
     
             &-card{
                 height: 600px;
@@ -150,7 +159,7 @@
         &-container{
             width: 70%;
     
-            border: 1px solid red;
+            // border: 1px solid red;
     
             &-card{
                 height: 500px;
