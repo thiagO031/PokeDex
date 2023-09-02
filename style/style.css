@@ -36,11 +36,12 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 .header-container img {
   width: 50px;
   height: 50px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
@@ -66,7 +67,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 6rem 2rem;
+  gap: 6rem 1rem;
   margin: 0 auto;
   padding: 50px 0;
   width: 90%;
@@ -77,18 +78,18 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 400px;
-  width: 200px;
+  width: 220px;
   padding: 20px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 3px solid #3D60B5;
   background-color: #FAC705;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 .main-container-card:hover {
-  margin: 10px;
-  padding: 20px;
-  background-color: #bb9600;
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: #fccb2c;
 }
 .main-container-card h3 {
   border: 1px solid black;
@@ -97,6 +98,7 @@ body {
 }
 .main-container-card img {
   width: 80px;
+  height: 80px;
 }
 .main-container-card-power {
   border: 1px solid black;
@@ -118,11 +120,12 @@ body {
 }
 .main-container-card-info {
   overflow-y: scroll;
-  border: 1px solid #C29905;
   height: 100px;
   color: #202956;
   border-radius: 8px;
   padding: 5px;
+  scrollbar-width: thin;
+  scrollbar-color: #C29905 transparent;
 }
 .main-container-card-info p {
   text-align: center;
