@@ -156,6 +156,7 @@ body {
   }
   .main-container-card img {
     width: 120px;
+    height: 120px;
   }
   .main-container-card-power {
     padding: 15px 0;
@@ -182,6 +183,7 @@ body {
   }
   .main-container-card img {
     width: 100px;
+    height: 100px;
   }
   .main-container-card-power {
     padding: 10px 0;
