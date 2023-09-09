@@ -4,6 +4,7 @@ body {
   background: url(https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png) center center;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 1200px) {

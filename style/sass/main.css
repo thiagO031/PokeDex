@@ -24,7 +24,6 @@
 .main-container-card:hover {
   transform: scale(1.05);
   cursor: pointer;
-  background-color: #fccb2c;
 }
 .main-container-card h3 {
   border: 1px solid black;

@@ -1,3 +1,5 @@
+@import './_mixins/colors';
+
 .main{
     // border: 1px solid black;
 
@@ -26,9 +28,9 @@
             text-align: center;
 
             border-radius: 30px;
-            border: 3px solid #3D60B5;
+            border: 3px solid $borda;
 
-            background-color: #FAC705;
+            background-color: $amarelo;
 
             transition: 0.5s ease-in-out;
 
@@ -36,11 +38,11 @@
             &:hover{
                 transform: scale(1.05);
 	            cursor: pointer;
-                background-color: #fccb2c;
+                // background-color: #fccb2c;
             }
 
             h3{
-                border: 1px solid black;
+                border: 1px solid $preto;
                 border-radius: 10px;
                 padding: 10px 5px;
             }
@@ -51,26 +53,26 @@
             }
 
             &-power{
-                border: 1px solid black;
+                border: 1px solid $preto;
                 border-radius: 10px;
                 padding: 10px 5px;
 
                 width: 100%;
 
                 &-grama{
-                    background-color: rgb(29, 180, 29);
+                    background-color: $verde;
                 }
 
                 &-fogo{
-                    background-color: #E73900
+                    background-color: $vermelho;
                 }
 
                 &-agua{
-                    background-color: #487FC3;
+                    background-color: $azul;
                 }
 
                 &-veneno{
-                    background-color: rgb(150, 24, 150);
+                    background-color: $roxo;
                 }
             }
 
